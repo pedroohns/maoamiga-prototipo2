@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mão Amiga - Início</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens 2/mao-amiga-roxo-icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-area">
+                <img src="imagens 2/mao-amiga-roxo.png" alt="Logo Mão Amiga" class="logo-img">                
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Início</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Empregos</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">Autoatendimento</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-primary">Criar Conta</button>
+                <button class="btn-secondary">Entrar</button>                
+            </div>
+
+            <!-- menu hamburger para mobile (tem que estar dentro da navbar)-->
+            <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="mobile-menu">
+                <ul class="nav-menu-mobile">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Empregos</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">Autoatendimento</a></li>   
+                </ul>
+                <div class="nav-actions-mobile">
+                 <button class="btn-primary">Criar Conta</button>
+                 <button class="btn-secondary">Entrar</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-card left">
+                <div class="hero-logo">
+                    <img src="imagens 2/mao-amiga-hero.png" alt="Logo Mão Amiga" class="logo-img">
+                </div>
+                <h1>
+                    Uma <span class="highlight">Mão Amiga</span> sempre transforma o desespero em esperança.
+                </h1>
+                <p>
+                    O Apoio Social é uma rede que une pessoas em busca de assistência. Com uma comunidade calorosa e receptiva, você tem a oportunidade de compartilhar suas experiências e se conectar com voluntários dedicados, sempre prontos para oferecer suporte e ajuda.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary">Criar Conta</button>
+                    <button class="btn-secondary">Entrar</button>
+                </div>
+            </div>
+            <div class="hero-card right">
+                <h2>
+                    Descubra o Projeto <span class="highlight">Mão Amiga</span>:<br>Conectando Vidas e Esperanças
+                </h2>
+                <p>
+                    O projeto Mão Amiga é uma iniciativa que visa unir pessoas que precisam de apoio com aqueles dispostos a oferecer ajuda. Através de uma rede solidária, você pode encontrar recursos, compartilhar suas histórias e se conectar com voluntários dedicados a transformar vidas.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">+5 mil</span>
+                        <span class="stat-label">Pessoas auxiliadas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">+200</span>
+                        <span class="stat-label">Empregos preenchidos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">1º</span>
+                        <span class="stat-label">Informação pra comunidade</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <h3>Parceiros</h3>
+            <div class="partners-logos">
+                <!-- decidi remover os parceiros por questões de direitos... deixei apenas escrito "Parceiro #" -->
+                <img src="parceiro1.svg" alt="Parceiro 1">
+                <img src="parceiro2.svg" alt="Parceiro 2">
+                <img src="parceiro3.svg" alt="Parceiro 3">
+                <img src="parceiro4.svg" alt="Parceiro 4">
+                <img src="parceiro5.svg" alt="Parceiro 5">
+                <img src="parceiro6.svg" alt="Parceiro 6">
+                <img src="parceiro7.svg" alt="Parceiro 7">
+            </div>
+        </section>
+
+        <section class="options">
+            <div class="options-header">
+                <h3>Defina como podemos te ajudar de acordo com a sua necessidade</h3>
+                <div class="arrow-down">
+                    <span>↓</span>
+                </div>
+            </div>
+            <div class="options-cards">
+                <div class="option-card pink">
+                    <div class="option-icon"><img src="icon-emprego.svg" alt=""></div>
+                    <h4>Procurando um emprego!</h4>
+                    <p>Quero encontrar oportunidades de trabalho.</p>
+                    <span class="arrow">→</span>
+                </div>
+                <div class="option-card yellow">
+                    <div class="option-icon"><img src="icon-empregando.svg" alt=""></div>
+                    <h4>Estou empregando!</h4>
+                    <p>Quero fornecer oportunidades de trabalho.</p>
+                    <span class="arrow">→</span>
+                </div>
+                <div class="option-card blue">
+                    <div class="option-icon"><img src="icon-doacao.svg" alt=""></div>
+                    <h4>Preciso de ajuda!</h4>
+                    <p>Preciso de uma rede de apoio.</p>
+                    <span class="arrow">→</span>
+                </div>
+                <div class="option-card purple">
+                    <div class="option-icon"><img src="icon-fazer-doacao.svg" alt=""></div>
+                    <h4>Quero ajudar!</h4>
+                    <p>Quero ajudar quem precisa.</p>
+                    <span class="arrow">→</span>
+                </div>
+                <div class="option-card lilac">
+                    <div class="option-icon"><img src="icon-mais-opcoes.svg" alt=""></div>
+                    <h4>Quero mais opções!</h4>
+                    <p>Ainda não encontrei o que estou procurando.</p>
+                    <span class="arrow">→</span>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="testimonials-header">
+                <h3>Veja as avaliações do nosso serviço que nossos usuários deixaram:</h3>
+                <div class="arrow-down">
+                    <span>↓</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <span class="testimonial-name">Matheus Viana</span>
+                <span class="testimonial-age">22 anos, Rio de Janeiro</span>
+                <blockquote>
+                    "Graças ao apoio do projeto Mão Amiga, consegui uma oportunidade de emprego que transformou minha vida."
+                </blockquote>
+                <div class="stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <button class="btn-secondary">Cadastre-se para ver todas as avaliações</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo-area">
+                <img src="imagens 2/mao-amiga-roxo.png" alt="Logo Mão Amiga" class="logo-img">
+            </div>
+            <div class="footer-social">
+                <img src="https://cdn.brandfetch.io/ido5G85nya/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="Instagram">
+                <img src="https://cdn.brandfetch.io/idpKX136kp/theme/dark/idu8FJi_SM.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="Facebook">
+                <img src="https://www.svgrepo.com/show/500461/whatsapp.svg" alt="Whatsapp">
+            </div>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+            </div>
+            <div class="footer-copy">
+                © 2025 - Mão Amiga. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
